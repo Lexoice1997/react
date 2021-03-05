@@ -8,26 +8,3 @@
   "navbar profile"
   ;
 }
-
-.header {
-  grid-area: header;
-  background-color: blueviolet;
-}
-
-.header img {
-  width: 50px;
-}
-
-.navbar {
-  grid-area: navbar;
-  background-color: burlywood;
-}
-
-.profile {
-  grid-area: profile;
-  background-color: cadetblue;
-}
-
-.img img {
-  width: 100%;
-}
