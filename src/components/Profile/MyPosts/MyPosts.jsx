@@ -5,10 +5,10 @@ import Post from './Post/Post';
 const MyPosts = () => {
     return (
         <div className={style.item}>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post message='Hello Everyone'/>
+            <Post message='My name Azamat'/>
+            <Post message='I love React'/>
+            <Post message='And I love JS'/>
         </div>
     )
 }
