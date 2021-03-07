@@ -1,4 +1,17 @@
 .navbar {
     grid-area: navbar;
     background-color: burlywood;
-  }
+}
+
+.navbar ul li {
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a.active {
+    color: gold;
+}
